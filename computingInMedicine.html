@@ -1,13 +1,15 @@
 <!doctype html>
 <html lang="en">
 
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Computing In Medicine</title>
+    <title>Benefits of Computing in Society</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
+
 
 <body>
     <h1>Benefits of Computing in Society</h1>
@@ -24,22 +26,22 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Cryptography</a>
+                        <a class="nav-link" href="./oliviaPage/cryptography.html">Cryptography</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Communication</a>
+                        <a class="nav-link" href="./DaryusPage.html">Communication</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Computing in Medicine</a>
+                        <a class="nav-link" href="./computingInMedicine.html">Computing in Medicine</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Data Analysis</a>
+                        <a class="nav-link" href="">Data Analysis</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Predictive Modelling</a>
+                        <a class="nav-link" href="./rosieWebpage/rosie.html">Predictive Modelling</a>
                     </li>
                 </ul>
             </div>
@@ -47,44 +49,82 @@
     </nav>
 
 
-    <div>
-        <h1 class="title">Computing In Medicine</h1>
+    <div class="main-content p-4">
+        <h2>Computing In Medicine</h2>
+
+
         <p>
-            Computers have vasts uses in this field, such as patient diagnosis, drug discovery and surgery. By using
+            Computers have vast uses in the field of medicine and healthcare, such as patient diagnosis, drug discovery
+            and surgery. By using
             computers more lives can be saved tasks can be done quicker and cheaper. Techniques such as machine
-            learning, computer vision and <a href="#">data analysis</a> are frequently used.
+            learning, computer vision, <a href="#">data analysis</a> and <a href="./rosieWebpage/rosie.html">predictive
+                modelling</a> are
+            frequently used.
         </p>
 
-        <h2>How is it used</h2>
+
+        <h4>Patient Diagnosis</h4>
+
+
+        <div>
+            <img src="https://images.pexels.com/photos/7089626/pexels-photo-7089626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="MRI scans of brain" height="250" class="p-3 float-end ">
+        </div>
+        <p>
+            Diagnosis of patients is done by analysing data collected from the patient, whether it be as images/scans or
+            measurements like blood pressure. Machine learning techniques including <a
+                href="https://en.wikipedia.org/wiki/Regression_analysis">regression analysis</a>, <a
+                href="https://developers.google.com/machine-learning/clustering/overview#:~:text=In%20machine%20learning%20too%2C%20we,unlabeled%20examples%20is%20called%20clustering.">clustering</a>
+            and many more can be used to find patterns in data it is trained on and give a patient a diagnosis. Although
+            there is a lot of discussion on the quality of the data these are trained on, by having bias or data
+            inconsistencies, using these models can make diagnosis quicker and more reliable, the doctor may miss
+            something which the computer can pick up. Medical imaging can also be analysed by computers by using object
+            detection, which is implemented using <a
+                href="https://en.wikipedia.org/wiki/Convolutional_neural_network">convolutional neural networks</a>. In
+            a nutshell, this is a neural network that uses convolution layers to detect features, like an outline of a
+            tumour. Moving away from machine learning/data analysis, image processing is a technique in which diagnosis
+            can be helped. An example of this being used is in x-ray images, applying processes like edge detection and
+            increased contrast abstracts the image showing key things, so a doctor can more easily identify bone
+            fractures and fragments.
+
+
+        </p>
+
+
+        <h4>Drug Discovery</h4>
+
 
         <p>
-            Diagonosing patients can be sped up using a machine modelling that is trained to detect things in data for example tumours in an image, patterns in blood pressure. This can be done by
+            This has been greatly accelerated by the use of computers, being able to process many different possible
+            drugs very quickly. Computers can store information of many different chemicals and see how they can
+            interact with different cells and proteins in the body. Seeing the effectiveness early on lets the
+            scientists ignore cases soon without wasting much time and money leading to nothing. Quantitative structure
+            activity relationship models (<a
+                href="https://en.wikipedia.org/wiki/Quantitative_structure%E2%80%93activity_relationship">QSAR</a>) are
+            ones that predict the activity of cells by chemicals, this also uses regression. To be able to discover new
+            drugs, lots of processing is required to test possible ones.
         </p>
 
 
-        <h2>Benefits</h2>
-        <ul>
-            <li>
-                Patients diagnosis can be more accurately be done, for example if a doctor is looking at an image of a
-                patients organs for
-                potential tumours it could be possibly be missed, but with the assisstance of a model it may spot it
-            </li>
-            <li>
-                Advancements in precision robotics is allowing doctors to use 
-            </li>
-        </ul>
-        <h2>Drawbacks</h2>
-        <ul>
-            <li>
-                
-            </li>
-        </ul>
+        <h4>Robotics in Surgery</h4>
 
 
-
+        <div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Cmglee_Cambridge_Science_Festival_2015_da_Vinci.jpg/330px-Cmglee_Cambridge_Science_Festival_2015_da_Vinci.jpg"
+                alt="da Vinci Surgical System" width="250" class="p-3 float-end">
+        </div>
+        <p>
+            By using high precision robots, that are controlled by the surgeon, surgery can be done a lot more safely
+            and the use of robots is said to <a
+                href="https://www.ucl.ac.uk/news/2022/may/robotic-surgery-safer-and-improves-patient-recovery-time">speed
+                up patient recover</a>. Robots make it so the patient doesn't need to have an incision as large,
+            reducing a lot of the risk, as the robots have cameras attached very close to the "hands", some even
+            creating 3D visualisations making the surgeon more concentrated and giving them a better view. Many of the
+            shortfalls of a humans biomechanics are overcome with these, such as significantly more precision with much
+            more finer movements and less shaking and dexterity. It is also said that patients time in a hospital and be
+            reduced by 20%! (see previous link)
+        </p>
     </div>
-
-
 </body>
 
 </html>
