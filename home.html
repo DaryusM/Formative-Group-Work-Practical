@@ -7,9 +7,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Benefits of Computing in Society</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  
+    <div class="p-3">
+      <h1 class="text-center">Benefits of Computing in Society</h1>
+    </div>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Navbar</a>
@@ -40,7 +40,61 @@
       </div>
     </div>
   </nav>
-  <h2>Welcome to Our Website</h2>
-  <footer class="container-fluid">All Authors: Daryus, Maisie, Rosie, Olivia, Hirok</footer>
+  <h2 class="p-2 text-center">Welcome to Our Website</h2>
+  <div class="container w-75 mb-3">
+    <div id="carouselTopicImg" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselTopicImg" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselTopicImg" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselTopicImg" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselTopicImg" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselTopicImg" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="..." class="d-block img-fluid" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Cryptography</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block img-fluid" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Communication</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block img-fluid" style="height: auto" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Computing in Medicine</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./rosieWebpage/rosieImages/dataMining.jpg" class="d-block img-fluid" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h5>Data Analysis</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./rosieWebpage/rosieImages/PredictiveModelling.jpg" class="d-block img-fluid" alt="image of a laptop and peice of paper with predicitve graphs on">
+          <div class="carousel-caption d-md-block">
+            <h5>Predictive Modelling</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselTopicImg" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselTopicImg" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <footer class="container-fluid text-center relative-bottom border border-4 bg-white">
+    Daryus | Maisie | Rosie | Olivia | Hirok
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
